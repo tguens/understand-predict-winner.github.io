@@ -42,3 +42,5 @@ The algorithm works in two steps:
     - Then it computes the smoothed hidden states.
     
 In order to simplify the problem, we used a different Kalman filter for each categories of vote. We lose the sum to one, but we would just have to renormalize them afterward (we will see that the sum of the smoothed proportions remain very close to one).
+
+{% include lib/mathjax.html %}
