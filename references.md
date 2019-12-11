@@ -1,16 +1,13 @@
 
 # References
 
- [1]- Washington Post
-Web: 
+ [1]-The Washington Post,
 https://www.washingtonpost.com/politics/democrats-eye-house-takeover-to-challengetrump-as-gop-tries-to-hang-on/2018/11/06/2c4ff3a0-e200-11e8-8f5fa55347f48762_story.html
 
-[2]-Harvard's Dataverse
-Web: 
+[2]-Harvard's Dataverse,
 https://dataverse.harvard.edu/
 
-FEC's 2016 Report 
-[3]https://transition.fec.gov/pubrec/fe2016/federalelections2016.pdf
+[3]-FEC's 2016 Report, https://transition.fec.gov/pubrec/fe2016/federalelections2016.pdf
 
 [4]-Bureau of labor statistics
 Web: 
