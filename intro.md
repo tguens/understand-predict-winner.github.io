@@ -8,14 +8,14 @@ President Donald Trump was the incumbent Republican President. The Republican lo
 
 The midterm elections are crucial for the government. The outcomes will dictate the second part of the incumbent President term. If the latter won a majority in both houses of the Congress, it ensures him free hand to conduct its politics.
 
-Predicting the election is essential for campaign and political advisors. Having some insights about the most impactful predictors can help guiding the candidates into finding the right strategy to gain the support of more electors. Predicting and studying past elections can provide valuable information. But more importantly, understanding what are the factors that govern the vote goes one step further in the entire approach.
+Predicting the election is essential for campaign and political advisors. Having some insights about the most impactful predictors can help guiding the candidates into finding the right strategy to gain the support of more electors. Predicting and studying past elections can provide valuable information. **But more importantly, understanding what are the factors that govern the vote goes one step further in this direction. **
 
 ## Why is predicting a challenge ?
 Predicting the elections' results is strongly related to understanding human behavior: why would one find a candidate or party appealing?  Even if we have access to very detailed socio-economic variables or precise polls, there are abstract or latent variables that will the trend. Elements such as _popularity_, _mood_, or _influence of media_ are difficult to quantify, to detect or even define. Hence, we can cast doubt on predictions due to unknown parameters which can significantly influence the outcome.
-![Presenting the noise within the data](pictures/noisiness_proximity_points.png)
+![Presenting the noise within the data](pictures/noisiness_proximity_points.png "Illustration of the noise within the dataset")
 
 ### Problematic
-What are the economic, social or demographic factors that are the most influential to predict the popular vote? Are those actually accurate predictors?
+**What are the economic, social or demographic factors that are the most influential to predict the popular vote? Are those actually accurate predictors?**
 
 In a preliminary work, we first collected information accross districts for instance poverty or origin statistics during the last five elections. We noticed that these factors have not been varying much during the last decade. Hence they are not sufficient to explain why some districts have different election results through years because these factors are almost constant. However they can help us to single out if a district is a Republican or a Democrat stronghold or rather a swing district. Finally, we also extended our study in time. Polls are a great indicator of the vote intentions at different time before the elections. Having the evolution of vote intentions before the elections can help us identify which political or social events can influence electors.
 
@@ -24,19 +24,15 @@ The following data was gathered, for visualization, exploration and model fittin
 
 1. **House of States Results**
 
-Harvard’s Dataverse and FEC report [2,3]  were combined in order to obtain the different percentages of votes assigned to each candidate for a given district. To simplify those results, the team made the assumption that the results of a vote could be limited to classes: ‘main republican candidate’, ‘main democrat candidate’ and ‘other’. This approximation is far from being crude in practice and is experimentally verified. These results are considered as the labels.
+Harvard’s Dataverse and FEC report [2,3]  were combined in order to obtain the different percentages of votes assigned to each candidate for a given district. To simplify those results, the team made the assumption that the results of a vote could be limited to classes: ‘main republican candidate’, ‘main democrat candidate’ and ‘other’. This approximation is far from being crude in practice and is experimentally verified. These results are considered as the labels. Over a second phase, the 'other category was removed' (please refer to the accompanying notebook for further details).
 
-2. **Origins dataset**
+2. **Origin and ethinc groups**
 
-These date were extracted from observations of the US Census Bureau (Population division) [11]. It contains the total numbers of male and female in different ethnical group at the counties levels from April 1, 2010 to July 1, 2017. We sum these numbers, to obtain the proportions of these groups per districts.
+These date were extracted from observations of the US Census Bureau (Population division) [11]. It contains the total numbers of male and female in different ethnical group at the counties levels from April 1, 2010 to July 1, 2017. We sum these numbers, to obtain the proportions of these groups per districts. We present the entire data cleaning approach [here](https://github.com/tguens/cs109-project).
 
-3.**Poverty and unemployment**
-?? => Théo
+3 .**Poverty and unemployment**
+Similarly, poverty, occupation and income statistics were gathered from the American Community Survey (2017-5 year statistics, table _DP03_).
 
-4.**Education**
+4. **Polls** 
 
-For the baseline of the milestone 3, we used data on education. However these data were at the States level, it was too inaccurate to attribute to counties or districts these States values. 
-
-5.**Polls** 
-
-Polls data are scraped from an article from the Huffington Post [10] that list polls from the 2018 midterm elections for the House of States. All these polls are made at a national level, and can help us to predict the popular vote. The information available include the percentage of vote for the Democrats, the Republican and other parties, the percentage of undecided voters, the starting and ending date and the source. The polls where conducted from January 2017 to November 2018 (a few days before election day).
+Polls data are scraped the Huffington Post [10]. Percentages of intended votes (for Democrats, Republican, other parties) and the percentage of undecided voters at the federal level, monthly-from January 2017 and November 2018.
