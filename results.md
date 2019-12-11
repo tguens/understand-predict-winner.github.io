@@ -68,6 +68,9 @@ Almost all standard deviations are lower than 2%. It means that the variability 
 
 Therefore, we can use the average values of these predictors to understand if they can explain wether a district is a safe stronghold or rather a swing district.
 
+The figure below shows how noisy our data is : political noise. We see how close Democrat and Republican elected districts are with our PCA which can not accurately create a descision function
+
+[im21](pictures/noisiness_proximity_points.png)
 
 ### III) Predicting popular vote through polls
 
