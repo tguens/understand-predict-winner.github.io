@@ -44,7 +44,7 @@ Here, we note that there is a strong correlation between **Democrat strongholds*
 The next plots presents the distribution of classes of jobs among Democrat and Republican stronghold:
 
 <p float="center">
-  <img src="pictures/Bars_age.png" width="400" />
+  <img src=pictures/Bars_age />
   <img src="pictures/Bars_occupation.png" width="400" /> 
 </p>
 
