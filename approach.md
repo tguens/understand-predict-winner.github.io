@@ -19,9 +19,9 @@ We are making the following suppositions about the polls:
     - they all are reliable.
     - targeted people are drawn at random among the whole population of people who will vote.
 
-Let's note $X_n = (R_n, D_n, O_n, U_n)$ the proportion of vote intention at a national scale at time $n$ (respectively percentage of Republian, Democrat, other and undecided votes). Let's note $Y_n = (r_n, d_n, o_n, u_n)$ the observations given by the poll at time $n$. Let's $p_n$ be the number of people asked for this poll.
+Let's note $$X_n = (R_n, D_n, O_n, U_n)$$ the proportion of vote intention at a national scale at time $$n$$ (respectively percentage of Republian, Democrat, other and undecided votes). Let's note $$Y_n = (r_n, d_n, o_n, u_n)$$ the observations given by the poll at time $$n$$. Let's $$p_n$$ be the number of people asked for this poll.
 
-The sample size of a poll is very tiny compare to the number of voters that has actually voted in 2018 (1,000 compare to 100,000,000), so we can model the poll as a sample with replacement. Hence the number of voters in each class follows a binomial. For example: $$p_n r_n$$ ~ $Bin(p_n, R_n)$, same for the 3 other classes. As $p_n >>1$ we can approximate the distribution by a normal, and suppose that it is continuous. The article [12] proves the convergence of a binomial to a normal. This approximation will be useful to predict the hidden states by using a Kalman filter.
+The sample size of a poll is very tiny compare to the number of voters that has actually voted in 2018 (1,000 compare to 100,000,000), so we can model the poll as a sample with replacement. Hence the number of voters in each class follows a binomial. For example: $$p_n r_n \sim Bin(p_n, R_n)$$, same for the 3 other classes. As $$p_n >>1$$ we can approximate the distribution by a normal, and suppose that it is continuous. The article [12] proves the convergence of a binomial to a normal. This approximation will be useful to predict the hidden states by using a Kalman filter.
 
 
 
@@ -42,3 +42,5 @@ The algorithm works in two steps:
     - Then it computes the smoothed hidden states.
     
 In order to simplify the problem, we used a different Kalman filter for each categories of vote. We lose the sum to one, but we would just have to renormalize them afterward (we will see that the sum of the smoothed proportions remain very close to one).
+
+{% include lib/mathjax.html %}
