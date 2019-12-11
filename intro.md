@@ -43,3 +43,5 @@ For the baseline of the milestone 3, we used data on education. However these da
 **Polls** 
 
 Polls data are scraped from an article from the Huffington Post [10] that list polls from the 2018 midterm elections for the House of States. All these polls are made at a national level, and can help us to predict the popular vote. The information available include the percentage of vote for the Democrats, the Republican and other parties, the percentage of undecided voters, the starting and ending date and the source. The polls where conducted from January 2017 to November 2018 (a few days before election day).
+
+[Link](https://github.com/tguens/understand-predict-winner.github.io/blob/master/result%20of%20polls.png) and ![Image](src)
