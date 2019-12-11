@@ -8,6 +8,36 @@
 - meaning of results
 - impact of our work
 
+### Exploratory Data Analysis on socio-economic predictors
+
+Let's present our findings on the link between socio-economic predictors and elections.
+
+The following database shows the statistics about racial data of districts that have not change during the last five elections (remained Democrat or Republican).
+
+![im1](pictures/All_democrat_statistics_race.png)
+
+![im2](pictures/All_republican_statistics_race.png)
+
+The different statistics shown above seem to show some quite significant differences when it comes to the origins considered. For instance, the percentage of non-hispanic white americans seems higher (higher mean and smaller variance). Visually, let's take a look a look at the different distributions side by side.
+
+![im3](pictures/Boxplots_Race_EDA.png)
+
+A couple of elements might be worth noting:
+- Caucasian: Republican districts have higher means with a distribution much narrower.
+- African Amrican: Republican districts' distribution of votes is on the bottom side.
+- Asian: Democrat districts seem to have more Asian voters than hispanic.
+
+![im5](pictures/Boxplots_Income_EDA.png)
+
+There is an interesting trend that appears in the previous plots. It seems that in the "democrats" districts contain the lowest income population subgroup, as well as the highest income - even though those distircts might not be the same (cf two last plots - highest income and below poverty level).
+
+![im6](pictures/Bars_age.png)
+![im7](pictures/Bars_occupation.png)
+
+In particular, even though it is an interpretation that is pretty hard to assert, one interesting pattern whcih appears is that in the 'republican districts', when averaged over the different years, the average distribution of unemployed inhabitants seems higher than in democrats' districts. However, in the different plots presented about the income level, the democrats' districts were "more prone" to have people living below the poverty level. One of the interpetation might be that the poorest people might be only a extremely limited part of the unemployed population.
+
+![im8](pictures/Correlation)
+
 
 ### Predicting popular vote through polls
 
