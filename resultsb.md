@@ -120,5 +120,6 @@ Some of these events could explain some changes of vote intention, but we need t
 Finally this study has shown us that we can rely on polls to predict the election results. As we seen, polls outcomes can be very different (some of these outcomes are even very unlikely, e.g. 16% of votes for other parties). We would not recommend trusting the results of a single poll. By merging all this noisy variety of observation we can reconstruct the intention of vote at a very statisfying level. Hence combining multiple polls leads to very accurate results.
 
 We can extand this study in two possible ways:
+
     - it would be interesting to stop the predictions at certain times during the year. To do so we could use the filtering part of the Kalman filter algorithm. We could also try the Kalman filter on polls of previous elections
     - it would also be interesting to add granularity to this model. Indeed, we only focus on the popular vote but we could also replicate these smoothing and predictions at the district level which would enable us to make predictions in term  of number of seats.
