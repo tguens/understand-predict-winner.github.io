@@ -41,7 +41,8 @@ Harvard’s Dataverse and FEC report [2,3]  were combined in order to obtain the
 
 These date were extracted from observations of the US Census Bureau (Population division) [11]. It contains the total numbers of male and female in different ethnical group at the counties levels from April 1, 2010 to July 1, 2017. We sum these numbers, to obtain the proportions of these groups per districts. We present the entire data cleaning approach [here](https://github.com/tguens/cs109-project).
 
-3 .**Poverty and unemployment**
+3 . **Poverty and unemployment**
+
 Similarly, poverty, occupation and income statistics were gathered from the American Community Survey (2017-5 year statistics, table _DP03_).
 
 4. **Polls** 
