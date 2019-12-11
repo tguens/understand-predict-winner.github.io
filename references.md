@@ -20,25 +20,24 @@ https://www.bls.gov/lau/
 Web: 
 https://www.ers.usda.gov/data-products/county-level-data-sets/
 
-[6] https://en.wikipedia.org/wiki/2018_United_States_House_of_Representatives_elections*
+[6]-Wikipedia, https://en.wikipedia.org/wiki/2018_United_States_House_of_Representatives_elections*
 
-_How (not) to predict Elections_
-[7]https://ieeexplore.ieee.org/document/6113109
+[7]-How (not) to predict Elections, https://ieeexplore.ieee.org/document/6113109
 
 [8] 3. Erikson, R.S. (1988). The Puzzle of Midterm Loss. The Journal of Politics, 50(4), 1011-1029.
 
 [9] https://www.siam.org/Portals/0/Publications/SIURO/Vol12/S01616.pdf?ver=2019-02-12-215230-620
 
-[10] https://elections.huffingtonpost.com/pollster/2018-national-house-race
+[10]-Huffington Post, https://elections.huffingtonpost.com/pollster/2018-national-house-race
 
-[11] https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2010-2017/cc-est2017-alldata.pdf?#
+[11]-Census GOV, https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2010-2017/cc-est2017-alldata.pdf?#
 
-[12] Bernouilli approximation with normal: http://www.real-statistics.com/binomial-and-related-distributions/relationship-binomial-and-normal-distributions/
+[12]-Real Statistics, http://www.real-statistics.com/binomial-and-related-distributions/relationship-binomial-and-normal-distributions/
 
-[13] Kalman filter: https://towardsdatascience.com/wtf-is-sensor-fusion-part-2-the-good-old-kalman-filter-3642f321440
+[13]-Towards Data Science, https://towardsdatascience.com/wtf-is-sensor-fusion-part-2-the-good-old-kalman-filter-3642f321440
 
-[14] pykalman: https://pykalman.github.io/    
+[14]-Pykalman, https://pykalman.github.io/    
 
-[15] https://en.wikipedia.org/wiki/2018_United_States_House_of_Representatives_elections
+[15]-Wikipedia, https://en.wikipedia.org/wiki/2018_United_States_House_of_Representatives_elections
 
-[16] https://ballotpedia.org/Timeline_of_events_impacting_2018_congressional_elections
+[16]-Ballotpedia, https://ballotpedia.org/Timeline_of_events_impacting_2018_congressional_elections
