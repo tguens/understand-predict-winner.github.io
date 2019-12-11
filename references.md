@@ -13,7 +13,7 @@ Web:
 https://dataverse.harvard.edu/
 
 FEC's 2016 Report 
-[3](https://transition.fec.gov/pubrec/fe2016/federalelections2016.pdf
+[3]https://transition.fec.gov/pubrec/fe2016/federalelections2016.pdf
 
 [4]-Bureau of labor statistics
 Web: 
@@ -26,7 +26,7 @@ https://www.ers.usda.gov/data-products/county-level-data-sets/
 [6] https://en.wikipedia.org/wiki/2018_United_States_House_of_Representatives_elections*
 
 _How (not) to predict Elections_
-[7](https://ieeexplore.ieee.org/document/6113109)
+[7]https://ieeexplore.ieee.org/document/6113109
 
 [8] 3. Erikson, R.S. (1988). The Puzzle of Midterm Loss. The Journal of Politics, 50(4), 1011-1029.
 
