@@ -16,7 +16,7 @@ IV Polls
 
 
 
-### Exploratory Data Analysis on socio-economic predictors
+### II) Exploratory Data Analysis on socio-economic predictors
 
 Let's present our findings on the link between socio-economic predictors and elections.
 
@@ -47,7 +47,7 @@ In particular, even though it is an interpretation that is pretty hard to assert
 ![im8](pictures/Correlation)
 
 
-### Predicting popular vote through polls
+### IV) Predicting popular vote through polls
 
 i) Short EDA
 
