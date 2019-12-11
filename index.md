@@ -7,7 +7,7 @@ Often times, one aim at predicting the results of the following elections, for i
 
 [Introduction](https://tguens.github.io/understand-predict-winner.github.io/intro.html)
 
-[Related Work]()
+[Results](https://tguens.github.io/understand-predict-winner.github.io/results.html)
 
 
 You can use the [editor on GitHub](https://github.com/tguens/understand-predict-winner.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
