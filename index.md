@@ -1,4 +1,11 @@
-## Welcome on OUR PREDICTING THE MID-TERM !!!
+## Understanding and predicting the mid-term elections.
+
+Abstract: The mid-term elections is one of the main key component of the United States political scene. Held every two years, citizens elect their representatives, who will act on their behalf and impact their every day's life. 
+Often times, one aim at predicting the results of the following elections, for instance, politicians who want to set up the best strategy, or voters. In contrast, our analyis is twofold: we aim at showing the ability to predict (or not) the elections thanks to statistical models but more importantly, we aim at understanding what are the elements that make the voters direct themselves towards a certain party or not. 
+
+[Main]((https://github.com/tguens/understand-predict-winner.github.io/))
+[Introduction] (https://github.com/tguens/understand-predict-winner.github.io/intro.md)
+
 
 You can use the [editor on GitHub](https://github.com/tguens/understand-predict-winner.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
