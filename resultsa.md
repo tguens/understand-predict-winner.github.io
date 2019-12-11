@@ -21,7 +21,7 @@ The different statistics already unveil notable differences vis a vis the demogr
 
 The next plot compare the distribution of races between Democrat and Republican strongholds:
 
-![Alt](pictures/Boxplots_Race_EDA.png “Correlation Between Race subgroups and Party Elections”)
+![aaa](pictures/Boxplots_Race_EDA.png )
 
 
 A couple of elements might be worth noting:
