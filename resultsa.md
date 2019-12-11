@@ -1,4 +1,4 @@
-%%html
+%html
 
 ## 5) Project trajectory, results and interpretation
 
