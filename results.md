@@ -16,7 +16,7 @@ IV Polls
 
 
 
-### II) Exploratory Data Analysis on socio-economic predictors
+### I) Exploratory Data Analysis on socio-economic predictors
 
 Let's present our findings on the link between socio-economic predictors and elections.
 
@@ -46,10 +46,18 @@ In particular, even though it is an interpretation that is pretty hard to assert
 
 ![im8](pictures/Correlation)
 
+### II) Model performances
 
-### IV) Predicting popular vote through polls
+#### A) Baseline model
 
-i) Short EDA
+![im1O](pictures/Results_Basemodel_WithElectionInfo.png)
+![im11](pictures/Results_Basemodel_WithoutElectionInfo.png)
+
+
+
+### III) Predicting popular vote through polls
+
+#### A) Short EDA
 
 The graph below shows the spread of polls results on percentages of Republican and Democrat votes. We can see that most polls are in favor of the Democrats, but there are lots of variety among the results. Hence, polls show very different possible outcomes. It is also difficult to tell if there is an evolution trend either.
 
@@ -63,7 +71,7 @@ It is worth noting that a significant number of targeted people doesn't know yet
 
 ![undecided_voters](pictures/undecided_voters.png)
 
-ii) importance of imposing a transition variance
+#### B) importance of imposing a transition variance
         
 If we let the algorithm find by itself the transition variance (variance of the random walk) with MLE, it can be prone to overfitting the observations. We want realistic smooth curve for the national intention of vote, so we need to impose a low transition variance.
 
@@ -74,7 +82,7 @@ Let's have a look of the smoothing curve of Democrat votes for different values 
 Empirically, a transition variance of 0.1 seems to be a good fit. The MLE estimation is subject to overfitting, as it is too much sensitive to the noisy observations.
 
 
-iii) Smoothing and confidence intervals
+#### C) Smoothing and confidence intervals
         
 As the distributions are gaussians, the 95% confidence interval is given by adding +- 2 standard deviations to the smoothed values.
 
@@ -87,14 +95,14 @@ Because of the lack of observations and the arbitrary choice of the first hidden
 In the last part we will compare these hidden states estimation to the actual results.
 
 
-iv) Normalization of results
+#### D) Normalization of results
 
 As we use four different filters, we lost the sum to one. So we need to normalize these estimations to compare them together. Except during the first months that are less precise (c.f. last part), we observe that the sum is very close to 100%.
 
 ![polls2](pictures/sum_of_predictions.png)
 ![polls5](pictures/proportion_of_each_categories.png)
 
-v) Comparison with the election results of November 6 2018
+#### E) Comparison with the election results of November 6 2018
 
 This article from Wikipedia gives the result of the popular vote for the House of State elections on November 6 2018. The Democrats won with an astounding majority (nearly 8% more than the Republican, this result hasn't occured since 1990).
 
@@ -105,7 +113,7 @@ The problem is that even at the end of the election, a significant proportion of
 Finally by not taking into account the undecided voters, we obtain some very good predictions for 2018. We can notice that the 95% confidence intervals of Democrat and Republican don't overlap, so the victory of the Democrats was very certain.
 
 
-vi) Comparison with political events
+#### F) Comparison with political events
 
 These smoothing curves can also help to identify evolution shift, for example we can see that Republican intention of votes have been declining. Then people working in analytics can relate these shifts or evolution to real events, and understand the consequences of some events on vote intention. Therefore, this smoothing curve is valuable for people who are looking for election insights.
 
