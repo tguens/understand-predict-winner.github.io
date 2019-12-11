@@ -12,7 +12,7 @@ As our team is strongly attached to support researchers, we provide access to th
 
 1 - [Introduction](https://tguens.github.io/understand-predict-winner.github.io/intro.html)
 
-2 - [Related Work](https://tguens.github.io/understand-predict-winner.github.io/related_work.html)
+2 - [Related Work](https://tguens.github.io/understand-predict-winner.github.io/relatedwork.html)
 
 3 - [Proposed approach and models](https://tguens.github.io/understand-predict-winner.github.io/approach.html)
 
