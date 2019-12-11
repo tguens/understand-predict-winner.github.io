@@ -1,33 +1,21 @@
 ## 5) Project trajectory, results and interpretation
 
-1) Briefly summarize any changes
-Skip this already tackle in introduction?
-
-2) Results
-- model performances
-- interpretations
-- meaning of results
-- impact of our work
-
-I EDA
-II models performances
-III Polls
-
-
-
 ### I) Exploratory Data Analysis on socio-economic predictors
 
-Let's present our findings on the relationship between socio-economic predictors and elections.
+We started by exploring the data that we had, our features to guide us into the right model to use.
 
-**In this EDA, we have average socio-economic predictors over the year.** We will see in the next part that these predictors do not vary much over our observation time of eight years).**
+#### Race and Election Results
 
-The following database shows the statistics about racial data of districts that have not change during the last five elections (remained Democrat or remained Republican).
+**First, we need to examine the values of our features.** We divided our data in terms of districts that always elected Republican deputies since 2010 or districts that always elected Democrat deputies.
+
+The following database shows the statistics about racial data of districts that have not changed during the last five elections (remained Democrat or remained Republican).
 
 <p float="center">
   <img src="pictures/All_democrat_statistics_race.png" width="400" />
   <img src="pictures/All_republican_statistics_race.png" width="450" /> 
 </p>
-The different statistics shown above seem to show some quite significant differences when it comes to the origins considered. For instance, the percentage of non-hispanic white Americans seems higher (higher mean and smaller variance). Visually, let's compare the distribution of different races between Democrat and Republican strongholds.
+
+The different statistics already unveil notable differences vis a vis the demographics of the districts that support Democrats and Republicans. For instance, the percentage of non-hispanic white Americans is higher (higher mean and smaller variance). Visually, let's compare the distribution of different races between Democrat and Republican strongholds.
 
 The next plot compare the distribution of races between Democrat and Republican strongholds:
 
@@ -38,11 +26,15 @@ A couple of elements might be worth noting:
 - African American: Republican districts' distribution of votes is on the bottom side.
 - Asian: Democrat districts seem to have more Asian voters than Hispanic voters.
 
-The next plot presents compare the distribution of income classes between Democrat and Republican strongholds
+#### Income and Election Results
+
+The next plot compare the distribution of income classes between Democrat and Republican strongholds
 
 ![im5](pictures/Boxplots_Income_EDA.png)
 
-There is an interesting trend that appears in the previous plots. It seems that in the Democrat strongholds contain the lowest income population subgroup, as well as the highest income - even though those districts might not be the same (c.f. two last plots - highest income and below poverty level).
+Here, we note that there is a strong correlation between **Democrat strongholds** and **low income** population subgroups, as well as **very-high income** - even though those districts might not be the same (c.f. two last plots - highest income and below poverty level).
+
+#### Jobs and Election Results
 
 The next plots presents the distribution of classes of jobs among Democrat and Republican stronghold:
 
