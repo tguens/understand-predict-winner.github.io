@@ -1,29 +1,27 @@
-### Introduction
-
-(relevant knowledge)
-The 2018 midterm elections were hold on November the 6th. 435 seats were contested. Each seat represents a district which is a part of a single State and includes around 700,000 people. The boundaries of a district is refined every ten years to ensure equal number of people in every districts.
+# Introduction
+![2018 final results](pictures/all_results.png)
+## Background
+The 2018 midterm elections were hold on November, 6th, 2018. 435 seats were contested. Each seat represents a district which is a part of a single State and includes around 700,000 people. The boundaries of a district is refined every ten years to ensure equal number of people in every districts.
 
 President Donald Trump was the incumbent Republican President. The Republican lost the elections (199 seat for the Republicans and 235 for the Democrats, one Representative identified himself as independant). A loss at such extent for the Party holding the Presidency during the midterms has not been seen since 1990 [6].
 
-(Why important?)
 The midterm elections are crucial for the government. The outcomes will dictate the second part of the incumbent President term. If the latter won a majority in both houses of the Congress, it ensures him free hand to conduct its politics.
 
-Predicting the election is essential for campaign and political advisors. Having some insights about the most impactful predictors can help guiding the candidates into finding the right strategy to gain the support of more electors. Predicting and studying past elections can provide valuable information of these precious predictors.
+Predicting the election is essential for campaign and political advisors. Having some insights about the most impactful predictors can help guiding the candidates into finding the right strategy to gain the support of more electors. Predicting and studying past elections can provide valuable information. But more importantly, understanding what are the factors that govern the vote is extrmely
 
+However, understanding if there are factors influencing the popular vote is pivotal as well. The indivual interested in predictive performances might see a way to gain insight into the data and build more accurate models. More importantly, researchers, 
 
-(Why challenging?)
+## Why is predcting a challenge ?
 The prediction of elections belongs to the class of challenge of understanding human behavior. Even if we have access to very detailed socio-economic variables, precise polls, the trend will always rely on abstract variables. These factors like popularity, mood, or influence of media are difficult to quantify or to detect. Hence every election predictions can be put into question by the fact that unknown parameters can influence significantly the outcomes.
 
-
-(Explain problematic + how EDA/preliminary work help us to find it)
+## Problematic
 Our problematic is to understand which are the economic/social/demographic factors that explain a Democratic or Republican win. 
 
 In our preliminary work, we first collected information accross districts for instance about poverty, unemployment, or social origin during the last five elections. We notice that these factors have not been varying much through this last decade. Hence they are not sufficient to explain why some districts have different election results through years because these factors are almost constant. However they can help us to single out if a district is a Republican or a Democrat stronghold or rather a swing district. Finally, we also extended our study in time. Polls are a great indicator of the vote intentions at different time before the elections. Having the evolution of vote intentions before the elections can help us identify which political or social events can influence electors.
 
-
 ### Description of data
 
-For our baseline models, we used the following data:
+The following data was gathered, for visualization, exploration and model fitting. 
 
 **House of States Results**
 
