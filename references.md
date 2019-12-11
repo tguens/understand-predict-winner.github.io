@@ -1,9 +1,6 @@
 
-## References
+# References
 
-!!!! TO add in a proper way!!
-
-References:
  [1]- Washington Post
 Web: 
 https://www.washingtonpost.com/politics/democrats-eye-house-takeover-to-challengetrump-as-gop-tries-to-hang-on/2018/11/06/2c4ff3a0-e200-11e8-8f5fa55347f48762_story.html
@@ -36,11 +33,11 @@ _How (not) to predict Elections_
 
 [11] https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2010-2017/cc-est2017-alldata.pdf?#
 
-[12] bernouilli approximation with normal: http://www.real-statistics.com/binomial-and-related-distributions/relationship-binomial-and-normal-distributions/
+[12] Bernouilli approximation with normal: http://www.real-statistics.com/binomial-and-related-distributions/relationship-binomial-and-normal-distributions/
 
-[13] KF, https://towardsdatascience.com/wtf-is-sensor-fusion-part-2-the-good-old-kalman-filter-3642f321440
+[13] Kalman filter: https://towardsdatascience.com/wtf-is-sensor-fusion-part-2-the-good-old-kalman-filter-3642f321440
 
-[14] pykalman https://pykalman.github.io/    
+[14] pykalman: https://pykalman.github.io/    
 
 [15] https://en.wikipedia.org/wiki/2018_United_States_House_of_Representatives_elections
 
