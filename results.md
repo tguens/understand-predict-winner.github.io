@@ -31,7 +31,7 @@ If we let the algorithm find by itself the transition variance (variance of the 
 
 Let's have a look of the smoothing curve of Democrat votes for different values of transition variance.
 
-!comp of smoothing
+![comparison_of smoothing_variance](pictures/comparison_of smoothing_variance.png)
 
 Empirically, a transition variance of 0.1 seems to be a good fit. The MLE estimation is subject to overfitting, as it is too much sensitive to the noisy observations.
 
@@ -40,7 +40,7 @@ iii) Smoothing and confidence intervals
         
 As the distributions are gaussians, the 95% confidence interval is given by adding +- 2 standard deviations to the smoothed values.
 
-!smooth and conf int
+![polls1](pictures/smoothing_and_comparison_intervals.png)
 
 It is very interesting to have the confidence intervals, it can give valuable insights to compare Democrats and Republicans.The undecided estimations are quite high but decreases before election day. 
 
@@ -53,9 +53,8 @@ iv) Normalization of results
 
 As we use four different filters, we lost the sum to one. So we need to normalize these estimations to compare them together. Except during the first months that are less precise (c.f. last part), we observe that the sum is very close to 100%.
 
-!sum of predictons
-
-!proportion of each
+![polls2](pictures/sum_of_predictions.png)
+![polls5](pictures/proportion_of_each_categories.png)
 
 v) Comparison with the election results of November 6 2018
 
@@ -63,7 +62,7 @@ This article from Wikipedia gives the result of the popular vote for the House o
 
 The problem is that even at the end of the election, a significant proportion of undecided voters subsists. We can suppose that this undecided intention of votes will follow the same distribution as the decided votes. Then we can add an undecided margin of errors to our predictions. In this study, we will neglect this source of uncertainty.
 
-!Prediciton of pop vote
+![polls3](pictures/prediction_of_popular_vote.png)
 
 Finally by not taking into account the undecided voters, we obtain some very good predictions for 2018. We can notice that the 95% confidence intervals of Democrat and Republican don't overlap, so the victory of the Democrats was very certain.
 
@@ -79,6 +78,6 @@ In January 2018, we can notice that a resurgence of vote intentions for the Repu
 
 Let's try to compare the evolutions of vote intentions with some political events extracted from the *Ballot Pedia* article. We restrict the comparison to the last major events that appears before the election from January 2018 to July 2018. 
 
-! evolution with events
+![polls4](pictures/comparison_of_rep.png)
 
 Some of these events could explain some changes of vote intention, but we need to be careful that it can be just a coincidence.
