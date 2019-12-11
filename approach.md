@@ -21,7 +21,7 @@ We are making the following suppositions about the polls:
 
 Let's note $X_n = (R_n, D_n, O_n, U_n)$ the proportion of vote intention at a national scale at time $n$ (respectively percentage of Republian, Democrat, other and undecided votes). Let's note $Y_n = (r_n, d_n, o_n, u_n)$ the observations given by the poll at time $n$. Let's $p_n$ be the number of people asked for this poll.
 
-The sample size of a poll is very tiny compare to the number of voters that has actually voted in 2018 (1,000 compare to 100,000,000), so we can model the poll as a sample with replacement. Hence the number of voters in each class follows a binomial. For example: $$p_n r_n$$ ~ $Bin(p_n, R_n)$, same for the 3 other classes. As $p_n >>1$ we can approximate the distribution by a normal, and suppose that it is continuous. The article [12] proves the convergence of a binomial to a normal. This approximation will be useful to predict the hidden states by using a Kalman filter.
+The sample size of a poll is very tiny compare to the number of voters that has actually voted in 2018 (1,000 compare to 100,000,000), so we can model the poll as a sample with replacement. Hence the number of voters in each class follows a binomial. For example: $$p_n r_n \sim Bin(p_n, R_n)$$, same for the 3 other classes. As $p_n >>1$ we can approximate the distribution by a normal, and suppose that it is continuous. The article [12] proves the convergence of a binomial to a normal. This approximation will be useful to predict the hidden states by using a Kalman filter.
 
 
 
