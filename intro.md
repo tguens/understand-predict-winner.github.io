@@ -1,5 +1,7 @@
 # Introduction
+_2018 Elections' results_:
 ![2018 final results](pictures/all_results.png)
+
 
 ## Background
 The 2018 midterm elections were hold on November, 6th, 2018. 435 seats were contested. Each seat represents a district which is a part of a single State and includes around 700,000 people. The boundaries of a district is refined every ten years to ensure equal number of people in every districts.
@@ -16,8 +18,6 @@ Predicting the elections' results is strongly related to understanding human beh
 _Presenting the noise within the data:_
 ![alt text](pictures/noisiness_proximity_points.png "Illustration of the noise within the dataset")
 
-library(knitr)
-include_graphics("pictures/noisiness_proximity_points.png", dpi = NA)
 
 ### Problematic
 **What are the economic, social or demographic factors that are the most influential to predict the popular vote? Are those actually accurate predictors?**
