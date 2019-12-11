@@ -23,7 +23,7 @@ https://www.ers.usda.gov/data-products/county-level-data-sets/
 
 [8] 3. Erikson, R.S. (1988). The Puzzle of Midterm Loss. The Journal of Politics, 50(4), 1011-1029.
 
-[9] https://www.siam.org/Portals/0/Publications/SIURO/Vol12/S01616.pdf?ver=2019-02-12-215230-620
+[9]Siam, https://www.siam.org/Portals/0/Publications/SIURO/Vol12/S01616.pdf?ver=2019-02-12-215230-620
 
 [10]-Huffington Post, https://elections.huffingtonpost.com/pollster/2018-national-house-race
 
