@@ -34,6 +34,7 @@ A couple of elements might be worth noting:
 
 The next plot compare the distribution of income classes between Democrat and Republican strongholds
 
+_Distribution of Income between Democrat and Republican strongholds_
 ![im5](pictures/Boxplots_Income_EDA.png)
 
 Here, we note that there is a strong correlation between **Democrat strongholds** and **low income** population subgroups, as well as **very-high income** - even though those districts might not be the same (c.f. two last plots - highest income and below poverty level).
