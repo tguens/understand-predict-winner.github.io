@@ -1,8 +1,8 @@
 ## Understanding and predicting the mid-term elections.
 
-The mid-term elections held every two-year are major components of the United States political stand. Despite, the historically low turnout, the impact is nevertheless important: state representatives influence citizens’ everyday life. Depending on the balance of the various political bodies within the country (House, Senate, Presidency,..) the impacts might be decisive (e.g. healthcare, immigration, gun regulation). See [1] for further discussion.
+The mid-term elections held every two-year are major components of the United States political stand. Despite, the historically low turnout, the impact is nevertheless important: state representatives influence citizens’ everyday life. Depending on the balance of the various political bodies within the country (House, Senate, Presidency,...) the impacts might be decisive (e.g. healthcare, immigration, gun regulation). See [1] for further discussion.
 
-Often times, one aim at predicting the results of the aforementioned elections, for instance, politicians trying to set up the best strategy. The analyis proposed in this prohect is twofold: not only do we aim at showing the ability to predict (or not) the elections thanks to statistical models but more importantly, we also aim at understanding what are the elements and boters that make the vote directed towards a certain party. 
+Often times, one aim at predicting the elections' results - for instance politicians trying to set up the best strategy. The analyis proposed in this project is twofold: not only do we aim at showing the **ability to predict** (or not) the elections thanks to statistical models but more importantly, we also aim at understanding **what are the elements and factors that make the vote directed towards a certain party**. 
 
 ### Open-source contribution
 As our team is strongly attached to support researchers, we provide access to the code, dataset and tools used to perform the analysis. Jupyter noteboks and python scripts are available.
@@ -19,4 +19,6 @@ As our team is strongly attached to support researchers, we provide access to th
 4 - [Results](https://tguens.github.io/understand-predict-winner.github.io/results.html)
 
 5 - [References](https://tguens.github.io/understand-predict-winner.github.io/references.html)
+
+
 
