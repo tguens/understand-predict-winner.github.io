@@ -19,6 +19,8 @@ III Polls
 
 Let's present our findings on the relationship between socio-economic predictors and elections.
 
+**In this EDA, we have average socio-economic predictors over the year.** We will see in the next part that these predictors do not vary much over our observation time of eight years).**
+
 The following database shows the statistics about racial data of districts that have not change during the last five elections (remained Democrat or remained Republican).
 
 ![im1](pictures/All_democrat_statistics_race.png)
@@ -27,25 +29,29 @@ The following database shows the statistics about racial data of districts that 
 
 The different statistics shown above seem to show some quite significant differences when it comes to the origins considered. For instance, the percentage of non-hispanic white Americans seems higher (higher mean and smaller variance). Visually, let's compare the distribution of different races between Democrat and Republican strongholds.
 
-![im3](pictures/Boxplots_Race_EDA.png "Comparison of races in Democrat and Republican strongholds")
+The next plot compare the distribution of races between Democrat and Republican strongholds:
+
+![im3](pictures/Boxplots_Race_EDA.png)
 
 A couple of elements might be worth noting:
 - Caucasian: Republican districts have higher means with a distribution much narrower.
 - African American: Republican districts' distribution of votes is on the bottom side.
 - Asian: Democrat districts seem to have more Asian voters than Hispanic voters.
 
-The next plot presents 
+The next plot presents compare the distribution of income classes between Democrat and Republican strongholds
 
-![im5](pictures/Boxplots_Income_EDA.png "Comparison of income classes in Democrat and Republican strongholds")
+![im5](pictures/Boxplots_Income_EDA.png)
 
-There is an interesting trend that appears in the previous plots. It seems that in the "democrats" districts contain the lowest income population subgroup, as well as the highest income - even though those distircts might not be the same (cf two last plots - highest income and below poverty level).
+There is an interesting trend that appears in the previous plots. It seems that in the Democrat strongholds contain the lowest income population subgroup, as well as the highest income - even though those districts might not be the same (c.f. two last plots - highest income and below poverty level).
+
+The next plots presents the distribution of classes of jobs among Democrat and Republican stronghold:
 
 ![im6](pictures/Bars_age.png)
 ![im7](pictures/Bars_occupation.png)
 
-In particular, even though it is an interpretation that is pretty hard to assert, one interesting pattern whcih appears is that in the 'republican districts', when averaged over the different years, the average distribution of unemployed inhabitants seems higher than in democrats' districts. However, in the different plots presented about the income level, the democrats' districts were "more prone" to have people living below the poverty level. One of the interpetation might be that the poorest people might be only a extremely limited part of the unemployed population.
+A noteworthy pattern is that in the Republican strongholds the average distribution of unemployed inhabitants seems higher than in Democrat stronghold. However, in the different plots presented about the income level, the democrats' districts were "more prone" to have people living below the poverty level. One of the interpetation might be that the poorest people might be only a extremely limited part of the unemployed population.
 
-![im8](pictures/Correlation)
+![im8](pictures/Correlation.png)
 
 ### II) Model performances
 
