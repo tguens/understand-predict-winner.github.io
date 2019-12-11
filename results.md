@@ -1,12 +1,20 @@
 ## 5) Project trajectory, results and interpretation
 
 1) Briefly summarize any changes
+Skip this already tackle in introduction?
 
 2) Results
 - model performances
 - interpretations
 - meaning of results
 - impact of our work
+
+I result of baseline models
+II EDA
+III Result advanced models
+IV Polls
+
+
 
 ### Exploratory Data Analysis on socio-economic predictors
 
