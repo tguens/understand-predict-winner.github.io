@@ -24,8 +24,8 @@ Let's present our findings on the relationship between socio-economic predictors
 The following database shows the statistics about racial data of districts that have not change during the last five elections (remained Democrat or remained Republican).
 
 <p float="center">
-  <img src="pictures/All_democrat_statistics_race.png" width="600" />
-  <img src="pictures/All_republican_statistics_race.png" width="600" /> 
+  <img src="pictures/All_democrat_statistics_race.png" width="400" />
+  <img src="pictures/All_republican_statistics_race.png" width="400" /> 
 </p>
 The different statistics shown above seem to show some quite significant differences when it comes to the origins considered. For instance, the percentage of non-hispanic white Americans seems higher (higher mean and smaller variance). Visually, let's compare the distribution of different races between Democrat and Republican strongholds.
 
