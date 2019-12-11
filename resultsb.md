@@ -99,8 +99,7 @@ Finally by not taking into account the undecided voters, we obtain some very goo
 
 These smoothing curves can also help to identify evolution shift, for example we can see that Republican intention of votes have been declining. Then people working in analytics can relate these shifts or evolution to real events, and understand the consequences of some events on vote intention. Therefore, this smoothing curve is valuable for people who are looking for election insights.
 
-The following article relates major events that has impacted the 2018 Congress election:  
-https://ballotpedia.org/Timeline_of_events_impacting_2018_congressional_elections.
+The article from Ballotpedia relates major events that has impacted the 2018 Congress election[16](https://tguens.github.io/understand-predict-winner.github.io/references.html).
 
 In January 2018, we can notice that a resurgence of vote intentions for the Republican. This period corresponds to the government shutdown, it might be one of the cause of this resurgence.
 
@@ -110,11 +109,6 @@ Let's try to compare the evolutions of vote intentions with some political event
 
 Some of these events could explain some changes of vote intention, but we need to be careful that it can be just a coincidence.
 
-{% include lib/mathjax.html %}
-
-
-
-
 ### Conclusion
 
 Finally this study has shown us that we can rely on polls to predict the election results. As we seen, polls outcomes can be very different (some of these outcomes are even very unlikely, e.g. 16% of votes for other parties). We would not recommend trusting the results of a single poll. By merging all this noisy variety of observation we can reconstruct the intention of vote at a very statisfying level. Hence combining multiple polls leads to very accurate results.
@@ -123,3 +117,5 @@ We can extand this study in two possible ways:
 
 - it would be interesting to stop the predictions at certain times during the year. To do so we could use the filtering part of the Kalman filter algorithm. We could also try the Kalman filter on polls of previous elections
 - it would also be interesting to add granularity to this model. Indeed, we only focus on the popular vote but we could also replicate these smoothing and predictions at the district level which would enable us to make predictions in term  of number of seats.
+
+{% include lib/mathjax.html %}
