@@ -72,6 +72,8 @@ The figure below shows how noisy our data is : political noise. We see how close
 
 [im21](pictures/noisiness_proximity_points.png)
 
+[im30](pictures/less_noisiness_with_model.png)
+
 ### III) Predicting popular vote through polls
 
 #### A) Short EDA
