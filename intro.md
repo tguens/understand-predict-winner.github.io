@@ -12,7 +12,9 @@ Predicting the election is essential for campaign and political advisors. Having
 
 ## Why is predicting a challenge ?
 Predicting the elections' results is strongly related to understanding human behavior: why would one find a candidate or party appealing?  Even if we have access to very detailed socio-economic variables or precise polls, there are abstract or latent variables that will the trend. Elements such as _popularity_, _mood_, or _influence of media_ are difficult to quantify, to detect or even define. Hence, we can cast doubt on predictions due to unknown parameters which can significantly influence the outcome.
-![Presenting the noise within the data](pictures/noisiness_proximity_points.png "Illustration of the noise within the dataset")
+
+Presenting the noise within the data:
+![alt text](pictures/noisiness_proximity_points.png "Illustration of the noise within the dataset")
 
 ### Problematic
 **What are the economic, social or demographic factors that are the most influential to predict the popular vote? Are those actually accurate predictors?**
