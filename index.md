@@ -16,7 +16,9 @@ As our team is strongly attached to support researchers, we provide access to th
 
 3 - [Proposed approach and models](https://tguens.github.io/understand-predict-winner.github.io/approach.html)
 
-4 - [Results](https://tguens.github.io/understand-predict-winner.github.io/results.html)
+4 - [Results]
+*a: [Main results](https://tguens.github.io/understand-predict-winner.github.io/results.html)
+*b: [Political volatility with polls data](https://tguens.github.io/understand-predict-winner.github.io/results.html)
 
 5 - [References](https://tguens.github.io/understand-predict-winner.github.io/references.html)
 
