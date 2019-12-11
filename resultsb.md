@@ -1,5 +1,43 @@
+# Political volatility with polls data
 
-### III) Predicting popular vote through polls
+We want to explain and predict election results through polls. We base this study on data scraped from an article from the Huffington Post that list polls from the 2018 midterm elections for the House of States [10](https://tguens.github.io/understand-predict-winner.github.io/references.html). All these polls are made at a national level, and can help us to predict the popular vote. The information available include the percentage of vote for the Democrats, the Republican and other parties, the percentage of undecided voters, the starting and ending date and the source. The polls where conducted from January 2017 to November 2018 (a few days before election day).
+
+## I) Approach and modeling
+
+The aim is to infer the intention of votes at national scale and at all times during the campaign from polling data.
+    
+### A) Hidden States Model
+Let's model the evolution of vote intention as a linear stochastic process. The intentions of vote at a nationnal scale are unknown, we can qualify them as latent variables or hidden states. We only have access to observations on a portion of the population at different times. These observations are the polls outcomes. With these polls, we want to determine the evolution of the intentions of votes and of its uncertainty.
+    
+We are making the following suppositions about the polls:
+    - they all are reliable.
+    - targeted people are drawn at random among the whole population of people who will vote.
+
+Let's note $$X_n = (R_n, D_n, O_n, U_n)$$ the proportion of vote intention at a national scale at time $$n$$ (respectively percentage of Republian, Democrat, other and undecided votes). Let's note $$Y_n = (r_n, d_n, o_n, u_n)$$ the observations given by the poll at time $$n$$. Let's $$p_n$$ be the number of people asked for this poll.
+
+The sample size of a poll is very tiny compare to the number of voters that has actually voted in 2018 (1,000 compare to 100,000,000), so we can model the poll as a sample with replacement. Hence the number of voters in each class follows a binomial. For example: $$p_n r_n \sim Bin(p_n, R_n)$$, same for the 3 other classes. As $$p_n >>1$$ we can approximate the distribution by a normal, and suppose that it is continuous. The article [12] proves the convergence of a binomial to a normal. This approximation will be useful to predict the hidden states by using a Kalman filter.
+
+
+### B) Prediction with a Kalman filter
+        
+The Kalman filter is an algorithm widely used for estimating positions (e.g. GNSS applications). It gives a method to compute the hidden states, given two hypothesis:
+- the process is linear
+- the noises are gaussian.
+
+I invite you to read this article if you are not familiar with this algorithm [13](https://tguens.github.io/understand-predict-winner.github.io/references.html).
+
+We can assimilate the process as a random walk, where at each step we add some white noise to the current state (we will tackle the fact the states percentages needs to some to one a bit later in this study). Hence the process is linear. The observation is the current state plus some white noise (because we approximate the binomial by a gaussian). Hence the hypothesis to use this algorithm stands.
+
+Given all the observations we can predict all the past hidden states, this technic is called smoothing. We are using the package pykalman [14](https://tguens.github.io/understand-predict-winner.github.io/references.html).
+
+The algorithm works in two steps:
+    - First it estimates the parameters of the linear gaussian process with the Expectation Maximisation algorithm
+    - Then it computes the smoothed hidden states.
+    
+In order to simplify the problem, we used a different Kalman filter for each categories of vote. We lose the sum to one, but we would just have to renormalize them afterward (we will see that the sum of the smoothed proportions remain very close to one).
+
+
+### II) Predicting popular vote with polls: results
 
 #### A) Short EDA
 
@@ -71,3 +109,16 @@ Let's try to compare the evolutions of vote intentions with some political event
 ![polls4](pictures/comparison_of_rep.png)
 
 Some of these events could explain some changes of vote intention, but we need to be careful that it can be just a coincidence.
+
+{% include lib/mathjax.html %}
+
+
+
+
+### Conclusion
+
+Finally this study has shown us that we can rely on polls to predict the election results. As we seen, polls outcomes can be very different (some of these outcomes are even very unlikely, e.g. 16% of votes for other parties). We would not recommend trusting the results of a single poll. By merging all this noisy variety of observation we can reconstruct the intention of vote at a very statisfying level. Hence combining multiple polls leads to very accurate results.
+
+We can extand this study in two possible ways:
+    - it would be interesting to stop the predictions at certain times during the year. To do so we could use the filtering part of the Kalman filter algorithm. We could also try the Kalman filter on polls of previous elections
+    - it would also be interesting to add granularity to this model. Indeed, we only focus on the popular vote but we could also replicate these smoothing and predictions at the district level which would enable us to make predictions in term  of number of seats.
