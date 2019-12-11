@@ -1,50 +1,22 @@
 ## Understanding and predicting the mid-term elections.
 
-Abstract: The mid-term elections is one of the main key component of the United States political scene. Held every two years, citizens elect their representatives, who will act on their behalf and impact their every day's life. 
-Often times, one aim at predicting the results of the following elections, for instance, politicians who want to set up the best strategy, or voters. In contrast, our analyis is twofold: we aim at showing the ability to predict (or not) the elections thanks to statistical models but more importantly, we aim at understanding what are the elements that make the voters direct themselves towards a certain party or not. 
+The mid-term elections held every two-year are major components of the United States political stand. Despite, the historically low turnout, the impact is nevertheless important: state representatives influence citizens’ everyday life. Depending on the balance of the various political bodies within the country (House, Senate, Presidency,..) the impacts might be decisive (e.g. healthcare, immigration, gun regulation). See [1] for further discussion.
 
-[Main](https://tguens.github.io/understand-predict-winner.github.io/)
+Often times, one aim at predicting the results of the aforementioned elections, for instance, politicians trying to set up the best strategy. The analyis proposed in this prohect is twofold: not only do we aim at showing the ability to predict (or not) the elections thanks to statistical models but more importantly, we also aim at understanding what are the elements and boters that make the vote directed towards a certain party. 
 
-[Introduction](https://tguens.github.io/understand-predict-winner.github.io/intro.html)
+### Open-source contribution
+As our team is strongly attached to support researchers, we provide access to the code, dataset and tools used to perform the analysis. Jupyter noteboks and python scripts are available.
+[Projet's Github page](https://github.com/tguens/cs109-project)
 
-[Results](https://tguens.github.io/understand-predict-winner.github.io/results.html)
+### Agenda
 
+1 - [Introduction](https://tguens.github.io/understand-predict-winner.github.io/intro.html)
 
-You can use the [editor on GitHub](https://github.com/tguens/understand-predict-winner.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+2 - [Related Work](https://tguens.github.io/understand-predict-winner.github.io/related_work.html)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+3 - [Proposed approach and models](https://tguens.github.io/understand-predict-winner.github.io/approach.html)
 
-### Markdown
+4 - [Results](https://tguens.github.io/understand-predict-winner.github.io/results.html)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+5 - [References](https://tguens.github.io/understand-predict-winner.github.io/references.html)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-
-<a href="https://tguens.github.io/understand-predict-winner.github.io/intro.html/">Page 2</a>
-
-- Bulleteds
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tguens/understand-predict-winner.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
