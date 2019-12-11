@@ -18,7 +18,7 @@ The following database shows the statistics about racial data of districts that 
 The different statistics already unveil notable differences vis a vis the demographics of the districts that support Democrats and Republicans. For instance, the percentage of non-hispanic white Americans is higher (higher mean and smaller variance). Visually, let's compare the distribution of different races between Democrat and Republican strongholds.
 
 The next plot compare the distribution of races between Democrat and Republican strongholds:
-
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ![Correlation Between Race subgroups and Party Elections](pictures/Boxplots_Race_EDA.png)
 
 A couple of elements might be worth noting:
