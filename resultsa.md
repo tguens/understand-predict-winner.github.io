@@ -43,8 +43,11 @@ Here, we note that there is a strong correlation between **Democrat strongholds*
 
 The next plots presents the distribution of classes of jobs among Democrat and Republican stronghold:
 
-![im6](pictures/Bars_age.png)
-![im7](pictures/Bars_occupation.png)
+<p float="center">
+  <img src="pictures/Bars_age.png" width="400" />
+  <img src="pictures/Bars_occupation.png" width="400" /> 
+</p>
+
 
 A noteworthy pattern is that in the Republican strongholds the average distribution of unemployed inhabitants seems higher than in Democrat stronghold. However, in the different plots presented about the income level, the democrats' districts were "more prone" to have people living below the poverty level. One of the interpetation might be that the poorest people might be only a extremely limited part of the unemployed population.
 
