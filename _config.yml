@@ -1,4 +1,5 @@
 theme: jekyll-theme-slate
 title: "Welcome to our webpage."
 Description: "Hello"
+markdown: redcarpet
 mathjax: true
