@@ -31,7 +31,7 @@ If we let the algorithm find by itself the transition variance (variance of the 
 
 Let's have a look of the smoothing curve of Democrat votes for different values of transition variance.
 
-![comparison_of smoothing_variance](pictures/comparison_of smoothing_variance.png)
+![polls0](pictures/comparison_of smoothing_variance.png)
 
 Empirically, a transition variance of 0.1 seems to be a good fit. The MLE estimation is subject to overfitting, as it is too much sensitive to the noisy observations.
 
