@@ -8,13 +8,16 @@ President Donald Trump was the incumbent Republican President. The Republican lo
 
 The midterm elections are crucial for the government. The outcomes will dictate the second part of the incumbent President term. If the latter won a majority in both houses of the Congress, it ensures him free hand to conduct its politics.
 
-Predicting the election is essential for campaign and political advisors. Having some insights about the most impactful predictors can help guiding the candidates into finding the right strategy to gain the support of more electors. Predicting and studying past elections can provide valuable information. **But more importantly, understanding what are the factors that govern the vote goes one step further in this direction. **
+Predicting the election is essential for campaign and political advisors. Having some insights about the most impactful predictors can help guiding the candidates into finding the right strategy to gain the support of more electors. Predicting and studying past elections can provide valuable information. **But more importantly, understanding what are the factors that govern the vote goes one step further in this direction.**
 
 ## Why is predicting a challenge ?
 Predicting the elections' results is strongly related to understanding human behavior: why would one find a candidate or party appealing?  Even if we have access to very detailed socio-economic variables or precise polls, there are abstract or latent variables that will the trend. Elements such as _popularity_, _mood_, or _influence of media_ are difficult to quantify, to detect or even define. Hence, we can cast doubt on predictions due to unknown parameters which can significantly influence the outcome.
 
 _Presenting the noise within the data:_
 ![alt text](pictures/noisiness_proximity_points.png "Illustration of the noise within the dataset")
+
+library(knitr)
+include_graphics("pictures/noisiness_proximity_points.png", dpi = NA)
 
 ### Problematic
 **What are the economic, social or demographic factors that are the most influential to predict the popular vote? Are those actually accurate predictors?**
@@ -41,7 +44,7 @@ Harvard’s Dataverse and FEC report [2,3]  were combined in order to obtain the
 
 These date were extracted from observations of the US Census Bureau (Population division) [11]. It contains the total numbers of male and female in different ethnical group at the counties levels from April 1, 2010 to July 1, 2017. We sum these numbers, to obtain the proportions of these groups per districts. We present the entire data cleaning approach [here](https://github.com/tguens/cs109-project).
 
-3 . **Poverty and unemployment**
+3. **Poverty and unemployment**
 
 Similarly, poverty, occupation and income statistics were gathered from the American Community Survey (2017-5 year statistics, table _DP03_).
 
