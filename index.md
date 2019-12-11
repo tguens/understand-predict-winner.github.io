@@ -5,7 +5,7 @@ Often times, one aim at predicting the results of the following elections, for i
 
 [Main](https://tguens.github.io/understand-predict-winner.github.io/)
 
-[Introduction] (https://tguens.github.io/understand-predict-winner.github.io/intro)
+[Introduction](https://tguens.github.io/understand-predict-winner.github.io/intro)
 
 [Related Work]()
 
