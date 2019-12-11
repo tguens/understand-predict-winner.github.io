@@ -1,4 +1,4 @@
-%html
+
 
 ## 5) Project trajectory, results and interpretation
 
@@ -21,7 +21,7 @@ The different statistics already unveil notable differences vis a vis the demogr
 
 The next plot compare the distribution of races between Democrat and Republican strongholds:
 
-!['Correlatio Between Race subgroups and Party Elections'](pictures/Boxplots_Race_EDA.png)
+![Alt](pictures/Boxplots_Race_EDA.png “'Correlation Between Race subgroups and Party Elections'”)
 <img src=pictures/Boxplots_Race_EDA.png,width=60,height=60>
 A couple of elements might be worth noting:
 - Caucasian: Republican districts have higher means with a distribution much narrower.
