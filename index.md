@@ -6,7 +6,7 @@ Often times, one aim at predicting the results of the aforementioned elections, 
 
 ### Open-source contribution
 As our team is strongly attached to support researchers, we provide access to the code, dataset and tools used to perform the analysis. Jupyter noteboks and python scripts are available.
-[Projet's Github page](https://github.com/tguens/cs109-project)
+[Project's Github page](https://github.com/tguens/cs109-project)
 
 ### Agenda
 
