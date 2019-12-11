@@ -17,24 +17,26 @@ III Polls
 
 ### I) Exploratory Data Analysis on socio-economic predictors
 
-Let's present our findings on the link between socio-economic predictors and elections.
+Let's present our findings on the relationship between socio-economic predictors and elections.
 
-The following database shows the statistics about racial data of districts that have not change during the last five elections (remained Democrat or Republican).
+The following database shows the statistics about racial data of districts that have not change during the last five elections (remained Democrat or remained Republican).
 
 ![im1](pictures/All_democrat_statistics_race.png)
 
 ![im2](pictures/All_republican_statistics_race.png)
 
-The different statistics shown above seem to show some quite significant differences when it comes to the origins considered. For instance, the percentage of non-hispanic white americans seems higher (higher mean and smaller variance). Visually, let's take a look a look at the different distributions side by side.
+The different statistics shown above seem to show some quite significant differences when it comes to the origins considered. For instance, the percentage of non-hispanic white Americans seems higher (higher mean and smaller variance). Visually, let's compare the distribution of different races between Democrat and Republican strongholds.
 
-![im3](pictures/Boxplots_Race_EDA.png)
+![im3](pictures/Boxplots_Race_EDA.png "Comparison of races in Democrat and Republican strongholds")
 
 A couple of elements might be worth noting:
 - Caucasian: Republican districts have higher means with a distribution much narrower.
-- African Amrican: Republican districts' distribution of votes is on the bottom side.
-- Asian: Democrat districts seem to have more Asian voters than hispanic.
+- African American: Republican districts' distribution of votes is on the bottom side.
+- Asian: Democrat districts seem to have more Asian voters than Hispanic voters.
 
-![im5](pictures/Boxplots_Income_EDA.png)
+The next plot presents 
+
+![im5](pictures/Boxplots_Income_EDA.png "Comparison of income classes in Democrat and Republican strongholds")
 
 There is an interesting trend that appears in the previous plots. It seems that in the "democrats" districts contain the lowest income population subgroup, as well as the highest income - even though those distircts might not be the same (cf two last plots - highest income and below poverty level).
 
