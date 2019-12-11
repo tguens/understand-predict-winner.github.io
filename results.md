@@ -9,9 +9,8 @@ Skip this already tackle in introduction?
 - meaning of results
 - impact of our work
 
-I result of baseline models
-II EDA
-III Result advanced models
+I EDA
+II models performances
 IV Polls
 
 
@@ -53,6 +52,21 @@ In particular, even though it is an interpretation that is pretty hard to assert
 ![im1O](pictures/Results_Basemodel_WithElectionInfo.png)
 ![im11](pictures/Results_Basemodel_WithoutElectionInfo.png)
 
+#### B) Temporal stability of socio-economic predictors
+
+The variability of the socio-economic predictors over years does not affect much the global population in a district. The only predictors which changes significantly only concern a tiny proportion of the whole population.
+
+To quantify this statement, let's study the variance of each of these predictors. All of these predictors represents proportions of the global population.
+
+Let's calculate the variance of the relevant predictors in each district over the last 5 elections.
+
+[im20](pictures/Hist_STD_per_district.png)
+
+The standard deviation represents the order of magnitude of the percentage of the whole population affected by the changes of these predictors.
+
+Almost all standard deviations are lower than 2%. It means that the variability of these predictors affect less than 2% of the whole population, hence they are neglictible. It makes sense with the fact, that during 8 years, the socio-economic factor of a population doesn't really change.
+
+Therefore, we can use the average values of these predictors to understand if they can explain wether a district is a safe stronghold or rather a swing district.
 
 
 ### III) Predicting popular vote through polls
