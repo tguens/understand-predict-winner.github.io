@@ -79,7 +79,7 @@ _Results of our Baseline Model in function of whether Past Election results info
 
 As explained in the previous section, one came to the conclusion that because of low variability and un-identifiability due to political noise/volatility, aggregating the dataset at a district level was the right path to embark on
 
-We therefore have a totally new dataset,freed from predicting election results by now used to predict the propensity of a district to be either a republican bastion,a democrat bastion or a swing district.
+We therefore have a totally new dataset freed from predicting election results by now used to predict the propensity of a district to be either a republican bastion, a democrat bastion or a swing district.
 We now have three categories :
 - 'Republican Safe District' : 2
 - 'Swing District': 1
@@ -109,7 +109,7 @@ _95% Confidence interval for the 30 features coefficients for each class_
 
 One might note how there is a grand portion of those coefficients that are statistically equal from zero. 
 
-To continue down this path, we decided to statistically quantify if those coefficients were different fron zero with a classic t-test. This statistical testing was done on only the "Swing distict" class coefficients because we wanted to focus on which parameters explain the uncertainty in those districts. Which   Please see below the results.
+To continue down this path, we decided to statistically quantify if those coefficients were different from zero with a classic t-test. This statistical testing was done on only the "Swing distict" class coefficients because we wanted to focus on which parameters explain the uncertainty in those districts. Which   Please see below the results.
 ![im9](pictures/Results_meta_model.png)
 
 ## Main Conclusions/Interesting Findings of our Research
