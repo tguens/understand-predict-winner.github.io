@@ -54,8 +54,12 @@ A noteworthy pattern is that in the Republican strongholds the average distribut
 
 The matrix below show us the absolute values of the correlation coefficients between our predictors. We have to be careful not to misinterpret the socio-economic predictors as they are proportions in a district.
 
+#### Getting rid of Correlated Features
+
 _Correlation Matrix between features_
 ![im8](pictures/Correlation.png)
+
+As we know, correlation needs to be avoided, it can cause our models to overfit.
 
 This matrix justifies that our predictors are correlated. Some correlation makes sense like the proportion of low salaries and of unemployment. Hence we could use a method to select features or to decrease the number of features like Principal Analysis Component.
 We did use this correlation matrix to delete ['Ocupation - Unemployed', '$100,000 to $149,999', '$150,000 to $199,999'] as those 3 features has a correlation with other features that were greater then 0.5
@@ -64,10 +68,10 @@ We did use this correlation matrix to delete ['Ocupation - Unemployed', '$100,00
 ### II) Model performances
 
 #### A) Baseline model
-
+_Results of our Baseline Model_
 <p float="center">
-  <img src="pictures/Results_Basemodel_WithElectionInfo.png" width="500" />
-  <img src="pictures/Results_Basemodel_WithoutElectionInfo.png" width="500" /> 
+  <img src="pictures/Results_Basemodel_WithElectionInfo.png" width="450" />
+  <img src="pictures/Results_Basemodel_WithoutElectionInfo.png" width="450" /> 
 </p>
 
 
