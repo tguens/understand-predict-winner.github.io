@@ -20,14 +20,16 @@ With this statement in mind, we note the following:
 * **Without understanding** what are the features that actually lead a model to accurate predictions, these results might be **superficial** and such a model has no value in practice if it **can not be interpreted by a human practicioner** (not deployable). In this high-stake context, one would rather **understand the elements** that urge a model to lean towards one class and that characterizes the voters. 
 
 Therefore, the following analysis focuses on **interpreting** the features that influence the vote
-* First, we hypothesize that some type of 'political noise' exist within the dataset. We support this asusmption with an a
+* First, we hypothesize that some type of 'political noise' exist within the dataset. We support this assumption with a visual analysis: performing dimensionality reduction and fitting a knn classifier ont he reduced data. _Below, the decision boundaries (without clear pattern nor sense)_
 ![Noisy data](pictures/noisiness_proximity_points.png)
+* The variability of the SCD predictors over years is low within a district. The only predictors which changes significantly only concern a tiny proportion of the whole population. _Below, the standard deviation of the predictors within a fixed country over the years (considering time-series)![im20](pictures/Hist_STD_per_district.png)
+
+
 * We perform dimensionality reduction (PCA, t-SNE) to get a better idea of some potential latent clusters of the data. _Below, 2-d PCA and t-SNE plots_
-![PCA]() ![t-SNE]()
+![PCA]() ![t-SNE](pictures/TSNE_results_Meta_model.png)
 
 - Extremeley close points. Non-identifibality
-- 'Political noise' - variance over time negligeable -> Picture Noise. + HIsti+STD per district. 
-Less noisiness. 
+
 
 - Urges us to put into practice those
 - Dimensionality reduction==> PCA and t-SNE. 
@@ -36,13 +38,13 @@ Less noisiness.
 
 ### Temporal stability of socio-economic predictors
 
-The variability of the socio-economic predictors over years does not affect much the global population in a district. The only predictors which changes significantly only concern a tiny proportion of the whole population.
+
 
 To quantify this statement, let's study the variance of each of these predictors. All of these predictors represents proportions of the global population.
 
 Let's calculate the variance of the relevant predictors in each district over the last 5 elections.
 
-![im20](pictures/Hist_STD_per_district.png)
+
 
 The standard deviation represents the order of magnitude of the percentage of the whole population affected by the changes of these predictors.
 
