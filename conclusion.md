@@ -23,3 +23,8 @@ Future work:
 - We could also try to collect data about the candidates. The advantages of these data compare with social-economic predictors is that they will actually vary between elections. Hence, we could try to describe the succesful Republican or Democrat candidates.
 
 
+[Next page:](https://tguens.github.io/understand-predict-winner.github.io/references.html)
+
+[Previous page:](https://tguens.github.io/understand-predict-winner.github.io/resultsb.html)
+
+[Back to main](https://tguens.github.io/understand-predict-winner.github.io/)
