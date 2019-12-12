@@ -40,3 +40,8 @@ https://www.ers.usda.gov/data-products/county-level-data-sets/
 [16]-Ballotpedia, https://ballotpedia.org/Timeline_of_events_impacting_2018_congressional_elections
 
 [17]- Black voter turnout, https://www.pewresearch.org/fact-tank/2017/05/12/black-voter-turnout-fell-in-2016-even-as-a-record-number-of-americans-cast-ballots/
+
+
+[Previous page:](https://tguens.github.io/understand-predict-winner.github.io/conclusion.html)
+
+[Back to main](https://tguens.github.io/understand-predict-winner.github.io/)
