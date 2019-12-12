@@ -44,3 +44,5 @@ Similarly, poverty, occupation and income statistics were gathered from the Amer
 Polls data are scraped the Huffington Post [[10]](https://tguens.github.io/understand-predict-winner.github.io/references.html). Percentages of intended votes (for Democrats, Republican, other parties) and the percentage of undecided voters at the federal level, monthly-from January 2017 and November 2018.
 
 [Next page: Related work](https://tguens.github.io/understand-predict-winner.github.io/relatedwork.html)
+
+[Back to main](https://tguens.github.io/understand-predict-winner.github.io/)
