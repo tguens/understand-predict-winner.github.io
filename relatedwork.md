@@ -10,7 +10,7 @@ In [[9]](https://github.com/tguens/understand-predict-winner.github.io/blob/mast
 
 
 However, those models only consider data at a state or country level and oftentimes focuses on American presidential elections.
-Our work **unifies** some aspects of the aforementioned research and analysis. Precisely
+Our work **unifies** some aspects of the aforementioned research and analysis. Precisely:
 * We **collect, gather, and create an entire dataset** at the district level, with socio-economic, demographic and ethnic variables.
 * We present a set of assumptions such as averaging over the years in order to **present accurate predictive models**.
 * We present an analysis of the features that appear to be the most 'important' for a voter to vote for a republican or a democrat candidate.
