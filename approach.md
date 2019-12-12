@@ -16,7 +16,27 @@ Less noisiness.
 - Dimensionality reduction
 - Logitsi regression woth Lasso--> *Bootsrap, smot to takcle the pb of feat. importance. 
 
+emporal stability of socio-economic predictors
 
+The variability of the socio-economic predictors over years does not affect much the global population in a district. The only predictors which changes significantly only concern a tiny proportion of the whole population.
+
+To quantify this statement, let's study the variance of each of these predictors. All of these predictors represents proportions of the global population.
+
+Let's calculate the variance of the relevant predictors in each district over the last 5 elections.
+
+[im20](pictures/Hist_STD_per_district.png)
+
+The standard deviation represents the order of magnitude of the percentage of the whole population affected by the changes of these predictors.
+
+Almost all standard deviations are lower than 2%. It means that the variability of these predictors affect less than 2% of the whole population, hence they are neglictible. It makes sense with the fact, that during 8 years, the socio-economic factor of a population doesn't really change.
+
+Therefore, we can use the average values of these predictors to understand if they can explain wether a district is a safe stronghold or rather a swing district.
+
+The figure below shows how noisy our data is : political noise. We see how close Democrat and Republican elected districts are with our PCA which can not accurately create a descision function
+
+[im21](pictures/noisiness_proximity_points.png)
+
+[im30](pictures/less_noisiness_with_model.png)
 
 
 
