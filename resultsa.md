@@ -109,6 +109,8 @@ _95% Confidence interval for the 30 features coefficients for each class_
 
 One might note how there is a grand portion of those coefficients that are statistically equal from zero. 
 
-To continue down this path, we decided to statistically quantify if those coefficients were different fron zero with a classic t-test. Please see below the results.
+To continue down this path, we decided to statistically quantify if those coefficients were different fron zero with a classic t-test. This statistical testing was done on only the "Swing distict" class coefficients because we wanted to focus on which parameters explain the uncertainty in those districts. Which   Please see below the results.
 ![im9](pictures/Results_meta_model.png)
 
+As we see, the features with the highest absolute t-statistics are intriguing :
+- African-american
