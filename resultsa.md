@@ -85,13 +85,26 @@ We now have three categories :
 - 'Swing District': 1
 - 'Democrat Safe District': 0
 
-It's with the combination of this new dataset and a multi-class Logistic regression that one might conclude on the relative importance of social, economic and demographic factors in the House of Representative election results.
+**It's with the combination of this new dataset and a multi-class Logistic regression that one might conclude on the relative importance of social, economic and demographic factors in the House of Representative election results.**
 
 To tackle class imbalance between the Safe districts and the Swing Districts, we used a a basic random over sampling approch (Smote).
 
-The Logistic Regression was trained with a 'L1' penalty using cross_validation to learn the parameter $\lambda$.
+The Logistic Regression was trained with a 'L1' penalty using cross_validation to learn the parameter $$\lambda$$.
 
+#### The model's Error types
 _Confusion Matrix for the Logistic Regression model_
 
 ![im8](pictures/confusion_matrix_meta_model.png)
+
+One might note that the model's errors are scarce but, as expected, mostly due to its unprecision at predicting the 'swing district' class.
+
+#### Evaluation of the relevance of the model's parameters
+
+To evaluate if a **co-factor explains the Democrat/Republican's bastion** is to evaluate if a **coefficient was significantly different from 0** in the meta-model .
+
+To do so, one resorted to the bootstrap approach in order to simulate a number of models and have confidence intervals for those coefficients. This approach resulted in the following graph.
+
+
+![im8](pictures/Bootstrap_results_meta_model.png)
+
 
