@@ -71,6 +71,4 @@ Our baseline model is a logistic regression that predicts the results of each di
     a) Part Théo + Will
     
 
-
-
 {% include lib/mathjax.html %}
