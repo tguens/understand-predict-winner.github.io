@@ -1,5 +1,25 @@
 # Approach, models and assumption.
 
+
+## modeling assumption
+- Reduce to demo/rep
+- Add history fo past--> Compare models with/without
+- Boosintg, ...., ---> SOme= accurate]
+
+## Look for understanding 
+- Predcition is important but further 
+- Extremeley close points. Non-identifibality
+- 'Political noise' - variance over time negligeable 
+
+- Urges us to put into practice those
+- Dimensionality reduction
+- Logitsi regression woth Lasso--> *Bootsrap, smot to takcle the pb of feat. importance. 
+
+
+
+
+
+
 ## 1 -  
 
 
