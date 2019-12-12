@@ -20,57 +20,20 @@ With this statement in mind, we note the following:
 * **Without understanding** what are the features that actually lead a model to accurate predictions, these results might be **superficial** and such a model has no value in practice if it **can not be interpreted by a human practicioner** (not deployable). In this high-stake context, one would rather **understand the elements** that urge a model to lean towards one class and that characterizes the voters. 
 
 Therefore, the following analysis focuses on **interpreting** the features that influence the vote
-* First, we hypothesize that some type of 'political noise' exist within the dataset. We support this assumption with a visual analysis: performing dimensionality reduction and fitting a knn classifier ont he reduced data. _Below, the decision boundaries (without clear pattern nor sense)_
+* First, we hypothesize that some type of 'political noise' exist within the dataset. We support this assumption with a **visual analysis**: performing **dimensionality reduction** and fitting a knn classifier ont he reduced data. The points are extremeley close and the model probably not identiable. _Below, the **decision boundaries (without clear pattern nor sense)**_
 ![Noisy data](pictures/noisiness_proximity_points.png)
-* The variability of the SCD predictors over years is low within a district. The only predictors which changes significantly only concern a tiny proportion of the whole population. _Below, the standard deviation of the predictors within a fixed country over the years (considering time-series)![im20](pictures/Hist_STD_per_district.png)
+* The **variability of the SCD predictors over years is low within a district**. The only predictors which changes significantly only concern a tiny proportion of the whole population. _Below, the standard deviation of the predictors within a fixed distric over the years (considering time-series). A point represents a pair (district, predictor) ![im20](pictures/Hist_STD_per_district.png)
+* Therefore, we **aggregate the data over the years**, reducing the temporal noise that exists and **improving the stability** of the features.
+* Furthermore, to pursue our goal, we decide to consider the **entire timeframe** in our dataset. The training set now consists of a randomly selected portion of the entire dataset (90%) (years ranging from 2010-2018) and the rest is held for the test set. 
+* With these changes, we perform **dimensionality reduction** (PCA, t-SNE) to get a better idea of some potential **latent clusters** of the data and observe that the **noise seems lowered down** by our assumption. _Below, 2-d PCA and t-SNE plots_
+![PCA](pictures/less_noisiness_with_model.png) ![t-SNE](pictures/TSNE_results_Meta_model.png)
+* We ultimately use a logisitc regression model with $$l1 penalty$$ for feature selection and interpreting the weights. This is the main goal of the analysis: gaining insight intothe features that impact a model's predictions. Our analysis is supoprted by bootsrap methodology and AB testing for statistical significance.
 
-
-* We perform dimensionality reduction (PCA, t-SNE) to get a better idea of some potential latent clusters of the data. _Below, 2-d PCA and t-SNE plots_
-![PCA]() ![t-SNE](pictures/TSNE_results_Meta_model.png)
-
-- Extremeley close points. Non-identifibality
-
-
-- Urges us to put into practice those
-- Dimensionality reduction==> PCA and t-SNE. 
-- Logitsi regression woth Lasso--> *Bootsrap, smot to takcle the pb of feat. importance. 
-
-
-### Temporal stability of socio-economic predictors
-
-
-
-To quantify this statement, let's study the variance of each of these predictors. All of these predictors represents proportions of the global population.
-
-Let's calculate the variance of the relevant predictors in each district over the last 5 elections.
-
-
-
-The standard deviation represents the order of magnitude of the percentage of the whole population affected by the changes of these predictors.
-
-Almost all standard deviations are lower than 2%. It means that the variability of these predictors affect less than 2% of the whole population, hence they are neglictible. It makes sense with the fact, that during 8 years, the socio-economic factor of a population doesn't really change.
-
-Therefore, we can use the average values of these predictors to understand if they can explain wether a district is a safe stronghold or rather a swing district.
-
-The figure below shows how noisy our data is : political noise. We see how close Democrat and Republican elected districts are with our PCA which can not accurately create a descision function
-
-
-
-![im30](pictures/less_noisiness_with_model.png)
+Please refer to our explanatory notebook and next section for more information.
 
 
 
 
-## 1 -  
 
-
-## 2- 
-
-Our baseline model is a logistic regression that predicts the results of each district. This model takes in input some social-economic predictors with general political information. We have trained this model in the results of the House of States elections from 2010 to 2016 and we tested this model on the 2018 elections. 
-
-2) description of our implementations beyond baseline with design choices
-
-    a) Part Théo + Will
-    
 
 {% include lib/mathjax.html %}
