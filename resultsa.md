@@ -115,11 +115,13 @@ To continue down this path, we decided to statistically quantify if those coeffi
 ## Main Conclusions/Interesting Findings of our Research
 
 As we see, the features with the highest absolute t-statistics are intriguing :
-- African-American/Asian : Those two categories seem to be a driving force in the 'Swing District' class. One possible interpretation, that seems extremely plausible, might be that those 2 categories of population have historically small turnout to vote (see article <a href="https://tguens.github.io/understand-predict-winner.github.io/references.html">[17]!</a>). A small turnout of a population that is dominating a district naturally goes hand in hand with an election result variability.
+- African-American/Asian : Those two categories seem to be a driving force in the 'Swing District' class. One possible interpretation, that seems extremely plausible, might be that those 2 categories of population have historically small turnout to vote (see article <a href="https://tguens.github.io/understand-predict-winner.github.io/references.html">[17]</a>). A small turnout of a population that is dominating a district naturally goes hand in hand with an election result variability.
 
-- Production, transportation and material moving occupation : This category is interesting. A case in a point of this category is a bus driver or a flight attendant. This job category might not be true to a party and might change its decision year in year out in compoarison to other occupations.
+- Production, transportation and material moving occupation : This category is interesting. A case in a point of this category is a bus driver or a flight attendant. This job category might not be true to a party and **might change its decision year in year out in compoarison to other occupations**.
 
--Employed in own not incorporated business workers is also very interesting as there is a diversity in the type of occupatiosn in this job category ranging from the entrepreneur to the local grocery owner.
+-Employed in own not incorporated business workers is also very interesting as there is a diversity in the type of occupatiosn in this job category ranging from the entrepreneur to the local grocery owner. Also because they are business workers, they might be directly influenced by the legislature passed by a democrat or a republican deputy not giving loyalty to any of them.
+
+
 
 
 
