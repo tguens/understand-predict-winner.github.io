@@ -20,7 +20,9 @@ As our team is strongly attached to support researchers, we provide access to th
 * a: [Main results](https://tguens.github.io/understand-predict-winner.github.io/resultsa.html)
 * b: [Political volatility with polls data](https://tguens.github.io/understand-predict-winner.github.io/resultsb.html)
 
-5 - [References](https://tguens.github.io/understand-predict-winner.github.io/references.html)
+5 - [Conclusion]((https://tguens.github.io/understand-predict-winner.github.io/conclusion.html)
+
+6 - [References](https://tguens.github.io/understand-predict-winner.github.io/references.html)
 
 
 
