@@ -25,15 +25,15 @@ Besides presenting some model with accurate predictions, we make assumptions in 
 
 
 ### Description of data
-The following data was gathered, for visualization, exploration and model fitting. 
+The following data were gathered, for visualization, exploration and model fitting. 
 
 1. **House of States Results**
 
 Harvard’s Dataverse and FEC report [[2,3]](https://tguens.github.io/understand-predict-winner.github.io/references.html)  were combined in order to obtain the different percentages of votes assigned to each candidate for a given district. To simplify those results, the team made the assumption that the results of a vote could be limited to classes: ‘main republican candidate’, ‘main democrat candidate’ and ‘other’. This approximation is far from being crude in practice and is experimentally verified. These results are considered as the labels. Over a second phase, the 'other category was removed' (please refer to the accompanying notebook for further details).
 
-2. **Origin and ethinc groups**
+2. **Origin and ethnic groups**
 
-These date were extracted from observations of the US Census Bureau (Population division) [[11]](https://tguens.github.io/understand-predict-winner.github.io/references.html). It contains the total numbers of male and female in different ethnical group at the counties levels from April 1, 2010 to July 1, 2017. We sum these numbers, to obtain the proportions of these groups per districts. We present the entire data cleaning approach [here](https://github.com/tguens/cs109-project).
+These data were extracted from observations of the US Census Bureau (Population division) [[11]](https://tguens.github.io/understand-predict-winner.github.io/references.html). It contains the total numbers of male and female in different ethnical group at the counties levels from April 1, 2010 to July 1, 2017. We sum these numbers, to obtain the proportions of these groups per districts. We present the entire data cleaning approach [here](https://github.com/tguens/cs109-project).
 
 3. **Poverty and unemployment**
 
@@ -41,7 +41,7 @@ Similarly, poverty, occupation and income statistics were gathered from the Amer
 
 4. **Polls** 
 
-Polls data are scraped the Huffington Post [[10]](https://tguens.github.io/understand-predict-winner.github.io/references.html). Percentages of intended votes (for Democrats, Republican, other parties) and the percentage of undecided voters at the federal level, monthly-from January 2017 and November 2018.
+Polls data are scraped from the Huffington Post [[10]](https://tguens.github.io/understand-predict-winner.github.io/references.html). Percentages of intended votes (for Democrats, Republican, other parties) and the percentage of undecided voters at the federal level, monthly-from January 2017 and November 2018.
 
 [Next page: Related work](https://tguens.github.io/understand-predict-winner.github.io/relatedwork.html)
 
