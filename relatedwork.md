@@ -17,8 +17,8 @@ Our work **unifies** some aspects of the aforementioned research and analysis. P
 * We further include a **bayesian hidden model** to estimate the political volatilty and show that it is relatively accurate when it comes to predicting the popular vote. 
 
 
-[Next page: Approach](https://tguens.github.io/understand-predict-winner.github.io/approach.html)
+[Next page:](https://tguens.github.io/understand-predict-winner.github.io/approach.html)
 
-[Previous page: Introduction ](https://tguens.github.io/understand-predict-winner.github.io/intro.html)
+[Previous page:](https://tguens.github.io/understand-predict-winner.github.io/intro.html)
 
 [Back to main](https://tguens.github.io/understand-predict-winner.github.io/)
