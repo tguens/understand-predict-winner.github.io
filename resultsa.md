@@ -119,7 +119,7 @@ As we see, the features with the highest absolute t-statistics are intriguing :
 
 - Production, transportation and material moving occupation : This category is interesting. A case in a point of this category is a bus driver or a flight attendant. This job category might not be true to a party and **might change its decision year in year out in compoarison to other occupations**.
 
--Employed in own not incorporated business workers is also very interesting as there is a diversity in the type of occupatiosn in this job category ranging from the entrepreneur to the local grocery owner. Also because they are business workers, they might be directly influenced by the legislature passed by a democrat or a republican deputy not giving loyalty to any of them.
+- Employed in own not incorporated business workers is also very interesting as there is a diversity in the type of occupatiosn in this job category ranging from the entrepreneur to the local grocery owner. Also because they are business workers, they might be directly influenced by the legislature passed by a democrat or a republican deputy not giving loyalty to any of them.
 
 
 
