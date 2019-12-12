@@ -16,7 +16,8 @@ Less noisiness.
 - Dimensionality reduction
 - Logitsi regression woth Lasso--> *Bootsrap, smot to takcle the pb of feat. importance. 
 
-emporal stability of socio-economic predictors
+
+### Temporal stability of socio-economic predictors
 
 The variability of the socio-economic predictors over years does not affect much the global population in a district. The only predictors which changes significantly only concern a tiny proportion of the whole population.
 
@@ -24,7 +25,7 @@ To quantify this statement, let's study the variance of each of these predictors
 
 Let's calculate the variance of the relevant predictors in each district over the last 5 elections.
 
-[im20](pictures/Hist_STD_per_district.png)
+![im20](pictures/Hist_STD_per_district.png)
 
 The standard deviation represents the order of magnitude of the percentage of the whole population affected by the changes of these predictors.
 
