@@ -1,8 +1,4 @@
-# understand-predict-winner.github.io
-Project website
-
-Boum
-https://guides.github.com/features/pages/
+## Predicting 2018 House of Representatives Results
 
 https://tguens.github.io/understand-predict-winner.github.io/
 
