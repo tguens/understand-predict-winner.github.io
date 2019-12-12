@@ -1,9 +1,12 @@
 # Approach, models and assumption.
 
 
-## modeling assumption
-- Reduce to demo/rep
-- Add history fo past--> Compare models with/without
+## Modelling assumptions
+- Let's recall that the datatset, after the full cleaning process consits of (socio-eonomic and demographic) SCD indicators for each pair (district, year), with the years ranging from 2010 to 2018 (predictors). The label is a 3 class vectors representing whether the elected candidate is "republican", "democrat" or "other".
+- In the first place we decide to neglect the "other" candidate which is factually an edge case (38 cases over the entire dataset).
+- Furthermore, e formulate the hypothesis that providing a model with the history of elected candidates might improve a model predictive power (indeed, some districts are historically republican and not prone to any change, and reversely). Therefore, we explore two scenarios: one including an indicator
+
+Add history fo past--> Compare models with/without
 - Boosintg, ...., ---> SOme= accurate]
 
 ## Look for understanding 
