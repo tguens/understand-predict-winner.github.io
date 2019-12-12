@@ -32,9 +32,9 @@ Therefore, the following analysis focuses on **interpreting** the features that 
 Please refer to our explanatory notebook and next section for more information.
 
 
-[Next page: Approach](https://tguens.github.io/understand-predict-winner.github.io/resultsa.html)
+[Next page:](https://tguens.github.io/understand-predict-winner.github.io/resultsa.html)
 
-[Previous page: Introduction ](https://tguens.github.io/understand-predict-winner.github.io/relatedwork.html)
+[Previous page:](https://tguens.github.io/understand-predict-winner.github.io/relatedwork.html)
 
 [Back to main](https://tguens.github.io/understand-predict-winner.github.io/)
 
