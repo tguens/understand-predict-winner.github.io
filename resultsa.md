@@ -91,5 +91,7 @@ To tackle class imbalance between the Safe districts and the Swing Districts, we
 
 The Logistic Regression was trained with a 'L1' penalty using cross_validation to learn the parameter $\lambda$.
 
-_Confusion Matrix for the Logistic Regression model _
+_Confusion Matrix for the Logistic Regression model_
+
 ![im8](pictures/confusion_matrix_meta_model.png)
+
