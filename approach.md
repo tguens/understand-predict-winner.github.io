@@ -34,9 +34,9 @@ Therefore, we can use the average values of these predictors to understand if th
 
 The figure below shows how noisy our data is : political noise. We see how close Democrat and Republican elected districts are with our PCA which can not accurately create a descision function
 
-[im21](pictures/noisiness_proximity_points.png)
+![im21](pictures/noisiness_proximity_points.png)
 
-[im30](pictures/less_noisiness_with_model.png)
+![im30](pictures/less_noisiness_with_model.png)
 
 
 
