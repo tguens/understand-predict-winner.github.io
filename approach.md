@@ -1,4 +1,4 @@
-# Approach, models and assumption.
+# Approach, models and assumption
 
 ## Modelling assumptions and prediction problem
 - Let's recall that the datatset, after the full cleaning process consits of (socio-eonomic and demographic) **SCD indicators** for each pair (district, year), with the years ranging from 2010 to 2018 (predictors). The label is a 3 class vectors representing whether the elected candidate is "republican", "democrat" or "other".
@@ -32,6 +32,10 @@ Therefore, the following analysis focuses on **interpreting** the features that 
 Please refer to our explanatory notebook and next section for more information.
 
 
+[Next page: Approach](https://tguens.github.io/understand-predict-winner.github.io/resultsa.html)
 
+[Previous page: Introduction ](https://tguens.github.io/understand-predict-winner.github.io/relatedwork.html)
+
+[Back to main](https://tguens.github.io/understand-predict-winner.github.io/)
 
 {% include lib/mathjax.html %}
