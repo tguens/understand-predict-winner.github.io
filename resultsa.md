@@ -104,7 +104,11 @@ To evaluate if a **co-factor explains the Democrat/Republican's bastion** is to 
 
 To do so, one resorted to the bootstrap approach in order to simulate a number of models and have confidence intervals for those coefficients. This approach resulted in the following graph.
 
-
+_95% Confidence interval for the 30 features coefficients for each class_
 ![im8](pictures/Bootstrap_results_meta_model.png)
 
+One might note how there is a grand portion of those coefficients that are statistically equal from zero. 
+
+To continue down this path, we decided to statistically quantify if those coefficients were different fron zero with a classic t-test. Please see below the results.
+![im9](pictures/Results_meta_model)
 
