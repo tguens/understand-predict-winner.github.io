@@ -43,8 +43,9 @@ Here, we note that there is a strong correlation between **Democrat strongholds*
 
 The next plots presents the distribution of classes of jobs among Democrat and Republican stronghold:
 
+_Distribution of Age/Occupation subgroups between Democrat and Republican strongholds
 <p float="center">
-  <img src='pictures/Bars_age.png' width="400"/>
+  <img src='pictures/Bars_Age.png' width="400"/>
   <img src="pictures/Bars_occupation.png" width="400" /> 
 </p>
 
@@ -56,6 +57,8 @@ The matrix below show us the absolute values of the correlation coefficients bet
 ![im8](pictures/Correlation.png)
 
 This matrix justifies that our predictors are correlated. Some correlation makes sense like the proportion of low salaries and of unemployment. Hence we could use a method to select features or to decrease the number of features like Principal Analysis Component.
+We did use this correlation matrix to delete ['Ocupation - Unemployed', '$100,000 to $149,999', '$150,000 to $199,999'] as those 3 features has a correlation with other features that were greater then 0.5
+
 
 ### II) Model performances
 
