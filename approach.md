@@ -9,7 +9,8 @@
 ## Look for understanding 
 - Predcition is important but further 
 - Extremeley close points. Non-identifibality
-- 'Political noise' - variance over time negligeable 
+- 'Political noise' - variance over time negligeable -> Picture Noise. + HIsti+STD per district. 
+Less noisiness. 
 
 - Urges us to put into practice those
 - Dimensionality reduction
