@@ -38,3 +38,5 @@ https://www.ers.usda.gov/data-products/county-level-data-sets/
 [15]-Wikipedia, https://en.wikipedia.org/wiki/2018_United_States_House_of_Representatives_elections
 
 [16]-Ballotpedia, https://ballotpedia.org/Timeline_of_events_impacting_2018_congressional_elections
+
+[17]- Black voter turnout, https://www.pewresearch.org/fact-tank/2017/05/12/black-voter-turnout-fell-in-2016-even-as-a-record-number-of-americans-cast-ballots/
