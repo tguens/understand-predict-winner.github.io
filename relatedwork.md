@@ -10,14 +10,15 @@ In [[9]] (https://github.com/tguens/understand-predict-winner.github.io/blob/mas
 
 
 However, those models only consider data at a state or country level and oftentimes focuses on American presidential elections.
-Our work unifies some aspects of the aforementioned research and analysis: 
-* We collect, gather, 
-Our Bayesian model on polls is similar to theirs but we took into account the date when the polls where conducted.
+Our work **unifies** some aspects of the aforementioned research and analysis. Precisely
+* We **collect, gather, and create an entire dataset** at the district level, with socio-economic, demographic and ethnic variables.
+* We present a set of assumptions such as averaging over the years in order to **present accurate predictive models**.
+* We present an analysis of the features that appear to be the most 'important' for a voter to vote for a republican or a democrat candidate.
+* We further include a **bayesian hidden model** to estimate the political volatilty and show that it is relatively accurate when it comes to predicting the popular vote. 
 
 
-
+[Next page: Approach](https://tguens.github.io/understand-predict-winner.github.io/approach.html)
 
 [Previous page: Introduction ](https://tguens.github.io/understand-predict-winner.github.io/intro.html)
-[Next page: Approach](https://tguens.github.io/understand-predict-winner.github.io/approach.html)
 
 [Back to main](https://tguens.github.io/understand-predict-winner.github.io/)
