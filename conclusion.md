@@ -4,8 +4,16 @@
 What are the economic, social or demographic factors that are the most influential to predict the popular vote? Are those actually accurate predictors?
 
 To do so, our group first built a base-line model that used past election results and yearly features. This model performed really well but lacked in explainability because of the low variance from year to year in our features per district and because of political noise.
+
+
 To tackle those 2 challenges, we had two parallell approaches, aggregate our data at a district level to limit the noisiness of our data and concentrate on the explainability of the prediction and understand the consequences of events on popular opinion.
-We can now conlude that it's the combination of political events, policies and economic, social or demographic factors  that guide the decision to vote for the Democrat or Republican party.
+
+
+We can now conclude that it's **the combination of political events, policies and economic, social or demographic factors  that guide the decision to vote for the Democrat or Republican party**. 
+
+- Main factors such as **the proportion of African-American, Asian origin,Transportation jobs and Business owners** are highly linked to 'swing districts', seem to cause variability in the elections outcomme year in year out.
+
+- Notable, the rejection of immigration reforms and the nuclearization pact with Nork Korea were highly correlated with shifts of popular opinion in 2018.
 
 
 
