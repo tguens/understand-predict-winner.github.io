@@ -122,7 +122,11 @@ As we see, the features with the highest absolute t-statistics are intriguing :
 - Employed in own not incorporated business workers is also very interesting as there is a diversity in the type of occupatiosn in this job category ranging from the entrepreneur to the local grocery owner. Also because they are business workers, they might be directly influenced by the legislature passed by a democrat or a republican deputy not giving loyalty to any of them.
 
 
+[Next page: Approach](https://tguens.github.io/understand-predict-winner.github.io/resultsb.html)
 
+[Previous page: Introduction ](https://tguens.github.io/understand-predict-winner.github.io/approach.html)
+
+[Back to main](https://tguens.github.io/understand-predict-winner.github.io/)
 
 
 
