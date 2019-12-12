@@ -1,6 +1,6 @@
 
 
-## 5) Project trajectory, results and interpretation
+## Project trajectory, results and interpretation
 
 ### I) Exploratory Data Analysis on socio-economic predictors
 
@@ -68,31 +68,28 @@ We did use this correlation matrix to delete ['Ocupation - Unemployed', '$100,00
 ### II) Model performances
 
 #### A) Baseline model
-_Results of our Baseline Model_
+_Results of our Baseline Model in function of whether Past Election results information was used_
 <p float="center">
   <img src="pictures/Results_Basemodel_WithElectionInfo.png" width="450" />
   <img src="pictures/Results_Basemodel_WithoutElectionInfo.png" width="450" /> 
 </p>
 
 
-#### B) Temporal stability of socio-economic predictors
+#### B) Meta - Model
 
-The variability of the socio-economic predictors over years does not affect much the global population in a district. The only predictors which changes significantly only concern a tiny proportion of the whole population.
+As explained in the previous section, one came to the conclusion that because of low variability and un-identifiability due to political noise/volatility, aggregating the dataset at a district level was the right path to embark on
 
-To quantify this statement, let's study the variance of each of these predictors. All of these predictors represents proportions of the global population.
+We therefore have a totally new dataset,freed from predicting election results by now used to predict the propensity of a district to be either a republican bastion,a democrat bastion or a swing district.
+We now have three categories :
+- 'Republican Safe District' : 2
+- 'Swing District': 1
+- 'Democrat Safe District': 0
 
-Let's calculate the variance of the relevant predictors in each district over the last 5 elections.
+It's with the combination of this new dataset and a multi-class Logistic regression that one might conclude on the relative importance of social, economic and demographic factors in the House of Representative election results.
 
-[im20](pictures/Hist_STD_per_district.png)
+To tackle class imbalance between the Safe districts and the Swing Districts, we used a a basic random over sampling approch (Smote).
 
-The standard deviation represents the order of magnitude of the percentage of the whole population affected by the changes of these predictors.
+The Logistic Regression was trained with a 'L1' penalty using cross_validation to learn the parameter $\lambda$.
 
-Almost all standard deviations are lower than 2%. It means that the variability of these predictors affect less than 2% of the whole population, hence they are neglictible. It makes sense with the fact, that during 8 years, the socio-economic factor of a population doesn't really change.
-
-Therefore, we can use the average values of these predictors to understand if they can explain wether a district is a safe stronghold or rather a swing district.
-
-The figure below shows how noisy our data is : political noise. We see how close Democrat and Republican elected districts are with our PCA which can not accurately create a descision function
-
-[im21](pictures/noisiness_proximity_points.png)
-
-[im30](pictures/less_noisiness_with_model.png)
+_Confusion Matrix for the Logistic Regression model _
+![im8](pictures/confusion_matrix_meta_model.png)
