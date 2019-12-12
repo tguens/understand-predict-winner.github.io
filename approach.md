@@ -34,6 +34,4 @@ Please refer to our explanatory notebook and next section for more information.
 
 
 
-
-
 {% include lib/mathjax.html %}
