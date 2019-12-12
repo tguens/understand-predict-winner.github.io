@@ -13,7 +13,7 @@ We can now conclude that it is **the combination of political events, policies a
 
 - Main factors such as **the proportion of African-American, Asian origin,Transportation jobs and Business owners** are highly linked to 'swing districts'. They seem to cause variability in the elections outcomme year in year out.
 
-- Notable, the rejection of immigration reforms and the nuclearization pact with Nork Korea were highly correlated with shifts of popular opinion in 2018.
+- Notable, the rejection of immigration reforms and the nuclearization pact with North Korea were highly correlated with shifts of popular opinion in 2018.
 
 
 
